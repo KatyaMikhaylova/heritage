@@ -34,7 +34,8 @@ a, a:hover {
 	display: block;
 	width: 34px;
 	height: 34px;
-	background: #285360;
+	/*background: #285360;*/
+	background: #beb133;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 34px;
@@ -55,13 +56,13 @@ a, a:hover {
 }
 .header-bottom {
 	background-color: #ededed;
-	height: 69px;
+	height: 70px;
 }
 .main_nav li {
 	float: left;
 }
 .main_logo img {
-margin: 2px;
+margin: 1px;
 
 }
 .main_nav a {
@@ -80,7 +81,7 @@ margin: 2px;
 	display: none;
 }
 .main_nav a:hover, .main_nav a.current, .main_nav i:hover {
-	background-color: #285360;
+	background-color: #dbce3d;
 	color: #fff;
 }
 
@@ -121,21 +122,21 @@ margin: 2px;
 }
 }
 
-.index .slide {
-	background: url(../img/main.jpg);
+.index_slide {
+	background: url(../img/2.jpg);
 	height: 400px;
 	background-position: center 20%;
 	background-size: cover;
 	position: relative;
 }
-.about .slide {
-	background: url(../img/about.jpg);
+.about_slide {
+	background: url(../img/shore.jpg);
 	height: 400px;
-	background-position: center 20%;
+	background-position: center 35%;
 	background-size: cover;
 	position: relative;
 }
-.blog .slide {
+.blog_slide {
 	background: url(../img/blog.jpg);
 	height: 400px;
 	background-position: center 20%;
