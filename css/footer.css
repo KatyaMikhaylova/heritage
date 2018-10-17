@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+clear {
+	clear: both;
+}
+.waves {
+	height: 20px;
+	width: 100%;
+	background: url(../img/wave_bg.png) repeat-x;
+}
+.footer_block {
+	background-color: #252525;
+	color: #979797;
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+p.fot_title {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	
+}
+.fot_logo img {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.fot_logo p {
+	font-size:0.8em;
+}
+.footer_block ul li {
+	float: left;
+	padding: 10px 10px;
+	margin: 10px 10px 0 0;
+	background: #454545;
+	border-radius: 3px;
+	font-size:0.8em;
+}
+.fot_contacts i {
+	margin-right: 20px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+}
+.icons i {
+	display: block;
+	width: 34px;
+	height: 34px;
+	background:#454545 ;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 34px;
+	float: left;
+	margin-right: 10px;
+}
+.icons i:hover {
+	background:#285360;
+}
+.fot_sections li:hover {
+	background:#285360;
+}

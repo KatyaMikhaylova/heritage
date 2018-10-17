@@ -1,0 +1,40 @@
+@charset "utf-8";
+.advance_block {
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:40px;
+}
+.advance_block span {
+	display:block;
+	font-size:1.6em;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-top:15px;
+	padding-bottom:35px;
+	letter-spacing:2px;
+}
+.advance_block img {
+	max-height:70px;
+}
+.advance_block p {
+	padding-top: 35px;
+	padding-bottom:5px;
+	color:#555;
+	line-height:1.8em;
+}
+
+.btn-primary
+{
+	background:rgba(50,49,49,1.00);
+	color:#fff;
+	text-transform:uppercase;
+	transition:all 0.2s ease-in ;
+}
+.btn {
+	border:none;
+	boder-radius:0;
+}
+.btn-primary:hover {
+	background-color:#285360;
+	transition:all .2s ease-in;
+}
