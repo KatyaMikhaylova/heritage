@@ -55,28 +55,28 @@ a, a:hover {
 }
 .header-bottom {
 	background-color: #ededed;
-	height: 63px;
+	height: 69px;
 }
 .main_nav li {
 	float: left;
 }
 .main_logo img {
-	max-width: 200px;
-	margin: 10px;
+margin: 2px;
+
 }
 .main_nav a {
 	display: block;
 	color: #4c4c4c;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding: 22px;
+	padding: 25px;
 }
 .main_nav i {
 	color: #4c4c4c;
-	width: 63px;
-	height: 63px;
+	width: 69px;
+	height: 69px;
 	text-align: center;
-	line-height: 63px;
+	line-height: 69px;
 	display: none;
 }
 .main_nav a:hover, .main_nav a.current, .main_nav i:hover {
