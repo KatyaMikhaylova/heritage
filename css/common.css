@@ -120,37 +120,40 @@ margin: 1px;
 	margin-left: auto;
 	margin-right: auto;
 }
+.blog_parts {
+	display:none;
+}
 }
 
 .index_slide {
-	background: url(../img/2.jpg);
+	background: url(../img/site-assets/main.jpg);
 	height: 400px;
 	background-position: center 20%;
 	background-size: cover;
 	position: relative;
 }
 .about_slide {
-	background: url(../img/shore.jpg);
+	background: url(../img/site-assets/about_us.jpg);
 	height: 400px;
 	background-position: center 35%;
 	background-size: cover;
 	position: relative;
 }
 .blog_slide {
-	background: url(../img/blog.jpg);
+	background: url(../img/site-assets/blog.jpg);
 	height: 400px;
-	background-position: center 20%;
+	background-position: center 30%;
 	background-size: cover;
 	position: relative;
 }
 .slide .slide_pattern {
-	background: url(../img/line_pattern.png);
+	background: url(../img/site-assets/line_pattern.png);
 	height: 100%;
 }
 .slide .white_waves {
 	height: 20px;
 	width: 100%;
-	background: url(../img/white_waves_bg.png);
+	background: url(../img/site-assets/white_waves_bg.png);
 	position: absolute;
 	bottom: 0;
 }

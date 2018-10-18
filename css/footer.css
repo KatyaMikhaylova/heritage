@@ -6,7 +6,7 @@ clear {
 .waves {
 	height: 20px;
 	width: 100%;
-	background: url(../img/wave_bg.png) repeat-x;
+	background: url(../img/site-assets/wave_bg.png) repeat-x;
 }
 .footer_block {
 	background-color: #252525;
