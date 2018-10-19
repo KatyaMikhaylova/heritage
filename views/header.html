@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,9 +27,9 @@
             <nav>
             <ul class="main_nav">
                 <li><i class="fa fa-navicon"></i></li>
-                <?php
-                $current = $arr['current'];
+<?php $current = $arr['current'];
                if ($current == 'about') {
+
 ?>
                 <li><a href="./about_us.php" class="current">О нас</a></li>
                 <li><a href="./blog.php">Блог</a></li>
@@ -36,6 +37,7 @@
                 <li><a href="">Контакты</a></li>
               <?php
                } else if ($current == 'blog') {
+
                ?>
                 <li><a href="./about_us.php" >О нас</a></li>
                 <li><a href="./blog.php" class="current">Блог</a></li>
@@ -43,6 +45,7 @@
                 <li><a href="">Контакты</a></li>
 
                 <?php  } else {
+
                 ?>
                 <li><a href="./about_us.php" >О нас</a></li>
                 <li><a href="./blog.php">Блог</a></li>
